@@ -1,0 +1,108 @@
+
+    #map {
+      height: 80%;
+      margin:5%;
+    }
+
+    html,
+    body {
+      height: 80%;
+      margin: 0;
+      padding: 0;
+    }
+h2 {
+    font-size: 18px;
+    width:100%;
+    padding-left:5%;
+    color:#f39c12;
+}
+#zipC{
+    width:50%;
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+input#zipCode.validate{
+    color:white;
+}
+.weather {
+    text-align: right;
+    margin-left:90%;
+    width:100%;
+    
+}
+#weather{
+    width:30%;
+    margin-left:10%;
+}
+
+.city {
+    font-size: 20px;
+    padding-top: 20px;
+    width:50%;
+}
+.temp {
+    font-size: 18px;
+    padding-top: 10px;
+    width:50%;
+    color:white;
+} 
+
+
+#landing-page{
+    padding-left: 2%;
+    padding-bottom:19%;
+}
+.bg {
+    background-image: url(../images/alcohol-beer-beverage-1128975.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#h1{
+    padding:2%;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 400;
+}
+#header {
+    font-size: 4.2rem;
+    font-weight: 400;
+    color: #d35400;
+}
+#resultsDiv,
+#header {
+    margin-left: -20%;
+}
+h1 {
+    font-family: 'Krona One', sans-serif;
+}
+#confirmAge {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 72px;
+    color:  #e65c00;  
+    text-shadow: 2px 2px black;  
+}
+.btn-flat {
+    color:  #e65c00;
+    font-size: 24px;
+}
+.back {
+    background-image: url(../images/bar-8755.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    font-size: 18px;
+    color: #f39c12;
+}
+h3 {
+    font-size: 28px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    color: white;
+}

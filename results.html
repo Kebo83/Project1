@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script type="text/javascript" src="assets/javaScript/brew.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Krona+One|Gochi+Hand|IM+Fell+Great+Primer+SC" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxmDmflbG6AVvQ_RoEbLmt6AWnSoTVMvA&libraries=places" ; async
+    defer></script>
+ <title>brewFinder</title>
+
+</head>
+
+<body class="back">
+
+<div class = "container ">
+
+  <div class="container" id="results-page">
+    <div class="row section">
+      <h1 id="header">brewFinder
+        <img src="https://png.icons8.com/ios/50/e67e22/beer.png" class="icon">
+      </h1>
+      <div class="divider" id="resultsDiv"></div>
+    </div>
+  </header>
+ </div>
+  
+    <h2>Your Spot to Find Local Breweries</h2>
+
+ </div>
+ <br>
+
+<body class="back">
+
+
+  <div class="container row" id="zipC">
+    <div class="input-field col s6">
+      <input id="zipCode" type="number" class="validate" id="zip-code">
+      <label class="active" for="ZipCode">Enter in your Zip Code</label>
+    </div>
+  
+
+     <div class="weather">
+       <div class="weather-field col s6">
+      <h3 id="weather">#DrinkingWeather </h3>
+      <div class="city"></div>
+      <div class="temp"></div>
+    </div>
+    </div>
+    </div>
+   <div class= "container"> 
+
+    <button class="waves-effect waves-teal btn-flat" type="submit" name="action" id="submit-button">Submit
+      <i class="material-icons right"></i>
+    </button>
+  
+</div> 
+  <br>
+  <br>
+  <br>
+  <br>
+        
+<div id="map"></div>
+
+  </body>
+ </script>
+<script type="text/javascript" src="assets/javascript/brew.js"></script>
+</body>
+   
+</html>
