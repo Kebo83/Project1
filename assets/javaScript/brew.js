@@ -1,34 +1,35 @@
-$(document).ready(function () {
-  var config = {
-      apiKey: "AIzaSyAUo4yqSzNjCfAdx9tGPN3HtgnAmb4zDbk",
-      authDomain: "brewfinder-da560.firebaseapp.com",
-      databaseURL: "https://brewfinder-da560.firebaseio.com",
-      projectId: "brewfinder-da560",
-      storageBucket: "brewfinder-da560.appspot.com",
-      messagingSenderId: "839326870516"
-  };
-
-  firebase.initializeApp(config);
-  var database = firebase.database();
-
-  var zip = []
-  var zipcode = 0
-
-    var zip= $("#zipCode").val().trim()
+// $(document).ready(function () {
+//     var config = {
+//     apiKey: "AIzaSyCc_XySFlDkllzqQDkjwfr1pIH45TY4WIM",
+//     authDomain: "brewfinder-31bb9.firebaseapp.com",
+//     databaseURL: "https://brewfinder-31bb9.firebaseio.com",
+//     projectId: "brewfinder-31bb9",
+//     storageBucket: "brewfinder-31bb9.appspot.com",
+//     messagingSenderId: "452696143106"
+//   };
 
 
-  $("#submit-button").click(function (event) {
-    event.preventDefault()
-    zip = $("#zipCode").val().trim();
+//   firebase.initializeApp(config);
+//   var database = firebase.database();
 
-    // console.log(zip) 
+//   var zip = []
+//   var zipcode = 0
 
-    database.ref().push({
-    zip: zip
-  })
+//     var zip= $("#zipCode").val().trim()
 
-})
-});
+
+//   $("#submit-button").click(function (event) {
+//     event.preventDefault()
+//     zip = $("#zipCode").val().trim();
+
+//     // console.log(zip) 
+
+//     database.ref().push({
+//     zip: zip
+//   })
+
+// })
+// });
 // end firebase
 
 // linking the zip when it's entered

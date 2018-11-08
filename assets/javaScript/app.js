@@ -8,7 +8,7 @@ var yesButton = $('#yes').on('click', function () {
 
 // function for displaying the results page
 var resultsPage = function () {
-    window.location = "../project1/results.html";
+    window.location = "../Project1-BrewFinder-/results.html";
 
 }
 
